@@ -11,7 +11,7 @@ The project is structured around core data analysis themes used in finance and m
 ## 🎯 Key Objectives
 
 - Visualize customer behavior across various dimensions (age, balance, credit limit, etc.)
-- Identify high-value customers and potential churners
+- Identify high-value customers and 
 - Monitor KPIs related to payment behavior and customer retention
 - Create a clean and responsive visual experience for business stakeholders
 
@@ -23,15 +23,15 @@ The dataset used is anonymized and contains synthetic records related to custome
 
 - Customer ID, Age, Gender
 - Credit Limit, Balance, Payment Ratio
-- Spending scores and churn risk indicators
+- Spending scores 
 
 ---
 
 ## 📊 Dashboard Highlights
 
-- 📈 KPI cards: Total customers, average credit limit, balance, churn risk
+- 📈 KPI cards: Total customers, average credit limit, balance
 - 📍 Dynamic filters for customer segmentation
-- 📉 Histograms and trend analysis (age group, usage ratio, churn risk)
+- 📉 Histograms and trend analysis (age group, usage ratio, )
 - 💬 Drill-through capabilities and interactive visuals
 
 <p align="center">
