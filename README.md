@@ -1,50 +1,68 @@
-# 💳 Credit Card Data Analysis Dashboard – Power BI Project
+# 💳 Credit Card Customer & Transaction Dashboard – Power BI
 
 ## 📌 Overview
 
-This project presents an interactive Power BI dashboard built from a synthetic dataset related to credit card usage and customer segmentation. It aims to provide business insights into customer behavior, spending patterns, and potential churn risk.
+This project showcases a full **business intelligence dashboard** built with Power BI, designed to analyze credit card transaction data and customer behavior. It is structured in two interactive pages:  
+1. **Transaction Report** – focused on revenue trends and card usage  
+2. **Customer Report** – focused on customer segmentation and profile analysis
 
-The project is structured around core data analysis themes used in finance and marketing: customer profiling, transaction activity, usage trends, and segmentation KPIs.
-
----
-
-## 🎯 Key Objectives
-
-- Visualize customer behavior across various dimensions (age, balance, credit limit, etc.)
-- Identify high-value customers and 
-- Monitor KPIs related to payment behavior and customer retention
-- Create a clean and responsive visual experience for business stakeholders
+The objective is to enable business stakeholders to better understand usage patterns, segment customer types, and support decision-making through visual insights.
 
 ---
 
-## 📁 Dataset
+## 🧩 Pages & Key Insights
 
-The dataset used is anonymized and contains synthetic records related to customer transactions and profiles, including:
+### 📄 Page 1 – Credit Card Transaction Report
 
-- Customer ID, Age, Gender
-- Credit Limit, Balance, Payment Ratio
-- Spending scores 
+- 📊 Revenue KPIs: Total Revenue (55M), Total Interest, Transaction Volume  
+- 🔍 Segmentations by:
+  - Card Category
+  - Expense Type (Bills, Travel, Food...)
+  - Payment Method (Chip, Swipe, Online)
+  - Quarter-wise Revenue Trends (Q1–Q4)
+
+### 👤 Page 2 – Customer Profile Report
+
+- 🧠 Customer Segmentation by:
+  - Age group
+  - Gender
+  - Education level
+  - Marital status
+  - Income group
+  - Employment type (e.g. Self-employed, Retiree, Businessman)
+- 📈 Weekly revenue trends by gender
+- 🗺 Regional analysis: Top 5 US states by revenue
 
 ---
 
-## 📊 Dashboard Highlights
+## 📊 Dashboard Features
 
-- 📈 KPI cards: Total customers, average credit limit, balance
-- 📍 Dynamic filters for customer segmentation
-- 📉 Histograms and trend analysis (age group, usage ratio, )
-- 💬 Drill-through capabilities and interactive visuals
+- KPI Cards with custom DAX metrics  
+- Slicers for real-time filtering by gender, card type, chip type, and time period  
+- Interactive visuals and drill-downs across dimensions  
+- CSS (Customer Satisfaction Score) as a calculated metric  
+- Clean and responsive layout for business users
+
+---
+
+## 🧠 Tools & Technologies
+
+- Power BI Desktop  
+- Power Query for data transformation  
+- DAX (Data Analysis Expressions) for metrics  
+- Synthetic credit card customer dataset (anonymized)
+
+---
+
+## 📸 Dashboard Previews
 
 <p align="center">
-  <img src="preview_dashboard.png" alt="Dashboard preview" width="800"/>
+  <img src="preview_dashboard.png" alt="Transaction Dashboard" width="800"/>
 </p>
 
----
-
-## 🛠 Tools Used
-
-- Power BI Desktop
-- DAX for calculated columns and measures
-- Data cleaning and transformation via Power Query
+<p align="center">
+  <img src="preview_dashboard2.png" alt="Customer Dashboard" width="800"/>
+</p>
 
 ---
 
@@ -59,4 +77,4 @@ The dataset used is anonymized and contains synthetic records related to custome
 
 ## 📘 Notes
 
-This dashboard is for educational and portfolio purposes only.
+This dashboard is for educational and professional portfolio purposes only. No real customer data was used.
